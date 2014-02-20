@@ -1,0 +1,12 @@
+// NOTE. THIS IS THE CONFIG FOR THE PVP SECTION OF THE SHOP. (ONLY PVP) iF YOU DON'T KNOW WHAT I MEAN, GO TO FACTIONS AND TYPE /SHOP
+// THE DATA IS DOCUMENTED VERY WELL. PLEASE REMOVE THE EXAMPLE VALUES WHEN MAKING NEW ITEMS.
+// THE SPACING MUST BE VERY EXACT.
+stock: 
+  '1': // ID
+    Type: Item // Item Type. Can be "Item" or "Permission" < Make this "Item"
+    Reward: Wood:1 // Material:Durability(Data Value) -> Use google to find a bukkit material list if you're unsure about the name. < Use official item-id's for this. It won't work otherwise.
+    Enchantments: FIRE_ASPECT:3;KNOCKBACK:40 // Enchantment Name:Level -> Remove this line if you don't want a enchantment. (Supports unsafe enchantments). < Enchants. Don't Know? Don't Use!
+    Pricetype: Money // Pricetype can be "Money" or "EXP" <Keep it MONEY
+    Price: 25.0 // Price -> Use "0" for free items and "-1" if you want to disable it from being bought.<Self Explanatory
+    Sell: -1 // Price -> Use "0" for free items and "-1" if you want to disable it from being sold. < Make this -1 on EVERY item. We don't want people selling items to the shop for now.
+    Amount: 9 // Amount of the Items -> Cannot be higher than 64.
